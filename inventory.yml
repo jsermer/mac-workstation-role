@@ -1,0 +1,91 @@
+---
+all:
+  hosts:
+    localhost:
+  vars:
+    homebrew_installed_packages:
+      # - ansible # Installed via Pip.
+      - ansible-lint
+      - autopep8
+      - autossh
+      - martido/brew-graph/brew-graph
+      - cask
+      - coreutils
+      - findutils
+      - flake8
+      - git
+      - git-extras
+      - gnu-sed
+      - gnu-tar
+      - gnupg
+      - graphviz
+      - grep
+      - gron
+      - groovy
+      - htop
+      - hub
+      - iproute2mac
+      - jq
+      - kubernetes-cli
+      - moreutils
+      - mtr
+      - nmap
+      - node
+      - openconnect
+      - pdsh
+      - pipenv
+      - shellcheck
+      - shyaml
+      - smartmontools
+      - speedtest-cli
+      - sshuttle
+      - telnet
+      - the_silver_searcher
+      - tldr
+      - tree
+      - watch
+      - wget
+      - yubikey-personalization
+
+    homebrew_taps:
+      - homebrew/core
+      - homebrew/cask
+
+    homebrew_cask_appdir: /Applications
+    homebrew_cask_apps:
+      - android-platform-tools
+      - atom
+      - bonjour-browser
+      - caffeine
+      - citrix-receiver
+      - docker
+      - firefox
+      - gimp
+      - google-chrome
+      - google-earth-pro
+      - inkscape
+      - istat-menus
+      - iterm2
+      - java
+      - microsoft-remote-desktop-beta
+      - minikube
+      - netspot
+      - silverlight
+      - sketchup
+      - slack
+      - stamp
+      - synology-drive
+      - teamviewer
+      - the-unarchiver
+      - tunnelblick
+      - utc-menu-clock
+      - vlc
+      - wifi-explorer
+      - wireshark
+      - yubico-yubikey-manager
+      - yubico-yubikey-personalization-gui
+      - yubico-yubikey-piv-manager
+
+    # Glob pattern to ansible task files to run after all other
+    # tasks are finished.
+    post_provision_tasks: []
