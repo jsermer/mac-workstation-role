@@ -4,7 +4,7 @@ all:
     localhost:
   vars:
     configure_dotfiles: true
-    dotfiles_repo: https://github.com/jsermersheim/dotfiles.git
+    dotfiles_repo: https://github.com/jsermer/dotfiles.git
     dotfiles_repo_accept_hostkey: true
     dotfiles_repo_local_destination: ~/git/dotfiles
     dotfiles_files:
