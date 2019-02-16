@@ -7,6 +7,16 @@
       tags: ['homebrew']
 
   tasks:
+    - name: install atom packages
+      shell: >
+        apm list --bare | grep -E "^{{ item }}@"
+        && echo "Already installed."
+        || apm install "{{ item }}"
+      loop: "{{ atom_packages }}"
+      register: apm_result
+      changed_when: "'Already installed.' not in apm_result.stdout"
+      tags: ['atom']
+
     - name: Run configured post-provision ansible task files.
       include_tasks: "{{ outer_item }}"
       loop_control:
