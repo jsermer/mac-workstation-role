@@ -3,6 +3,15 @@ all:
   hosts:
     localhost:
   vars:
+    configure_dotfiles: yes
+    dotfiles_repo: https://github.com/jsermersheim/dotfiles.git
+    dotfiles_repo_accept_hostkey: yes
+    dotfiles_repo_local_destination: ~/git/dotfiles
+    dotfiles_files:
+      - .bash_profile
+      - .gitignore
+      - .gitconfig
+
     homebrew_installed_packages:
       # - ansible # Installed via Pip.
       - ansible-lint
