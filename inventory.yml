@@ -72,7 +72,6 @@ all:
       - gimp
       - google-chrome
       - google-earth-pro
-      - grammarly
       - inkscape
       - istat-menus
       - iterm2
