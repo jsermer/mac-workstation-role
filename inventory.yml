@@ -36,6 +36,7 @@ all:
       - iproute2mac
       - jq
       - kubernetes-cli
+      - kubernetes-helm
       - moreutils
       - mtr
       - nmap
