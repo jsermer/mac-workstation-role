@@ -33,6 +33,7 @@ all:
       - groovy
       - htop
       - hub
+      - hyperkit
       - iproute2mac
       - jq
       - kubernetes-cli
