@@ -36,6 +36,7 @@ all:
       - hyperkit
       - iproute2mac
       - jq
+      - kafkacat
       - kubernetes-cli
       - kubernetes-helm
       - moreutils
