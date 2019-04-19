@@ -1,6 +1,6 @@
 # mac-workstation-role
 
-1. install homebrew: /usr/bin/ruby -e "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/master/install)">
+1. install homebrew: /usr/bin/ruby -e "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/master/install)>"
 2. brew install pipenv git
 3. mkdir ~/git && cd ~/git && git clone git@github.com:jsermer/mac-workstation-role.git && cd mac-workstation-role
 4. pipenv install
