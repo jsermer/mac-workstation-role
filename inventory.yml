@@ -91,6 +91,7 @@ all:
       - the-unarchiver
       - tunnelblick
       - utc-menu-clock
+      - visual-studio-code
       - vlc
       - wifi-explorer
       - wireshark
