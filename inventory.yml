@@ -99,6 +99,16 @@ all:
       - yubico-yubikey-personalization-gui
       - yubico-yubikey-piv-manager
 
+    visual_studio_code_extensions:
+      - DavidAnson.vscode-markdownlint
+      - eamodio.gitlens
+      - haaaad.ansible
+      - ms-python.python
+      - rebornix.ruby
+      - redhat.vscode-yaml
+      - timonwong.shellcheck
+      - vscoss.vscode-ansible
+
     atom_packages:
       - atom-beautify
       - busy-signal
