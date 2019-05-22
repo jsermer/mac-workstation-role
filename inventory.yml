@@ -35,6 +35,7 @@ all:
       - hub
       - hyperkit
       - iproute2mac
+      - jid
       - jq
       - kafkacat
       - kubernetes-cli
