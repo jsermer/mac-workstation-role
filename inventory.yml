@@ -48,6 +48,7 @@ all:
       - openconnect
       - pdsh
       - pipenv
+      - rbenv
       - shellcheck
       - shyaml
       - smartmontools
