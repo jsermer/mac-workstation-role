@@ -17,7 +17,6 @@ all:
       - ansible-lint
       - autopep8
       - autossh
-      - martido/brew-graph/brew-graph
       - cask
       - coreutils
       - findutils
@@ -32,15 +31,19 @@ all:
       - grep
       - gron
       - groovy
+      - helm
       - htop
       - hub
-      - hyperkit
       - iproute2mac
       - jid
       - jq
+      - jsonlint
       - kafkacat
+      - krew
+      - kail
+      - kubectx
       - kubernetes-cli
-      - kubernetes-helm
+      - minikube
       - moreutils
       - mtr
       - nmap
@@ -49,12 +52,15 @@ all:
       - pdsh
       - pipenv
       - rbenv
+      - ruby-build
       - shellcheck
       - shyaml
       - smartmontools
       - speedtest-cli
       - sshuttle
       - telnet
+      - terraform
+      - terragrunt
       - the_silver_searcher
       - tldr
       - tree
@@ -65,11 +71,19 @@ all:
     homebrew_taps:
       - homebrew/core
       - homebrew/cask
+      - homebrew/cask-drivers
+      - homebrew/cask-versions
+      - homebrew/portable-ruby
+      - homebrew/services
+      - martido/graph
+      - boz/repo
 
     homebrew_cask_appdir: /Applications
     homebrew_cask_apps:
       - android-platform-tools
+      - anydesk
       - atom
+      - balenaetcher
       - bonjour-browser
       - citrix-receiver
       - docker
@@ -83,7 +97,6 @@ all:
       - java
       - keepingyouawake
       - microsoft-remote-desktop-beta
-      - minikube
       - netspot
       - silverlight
       - sketchup
