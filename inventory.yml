@@ -34,13 +34,14 @@ all:
       - helm
       - htop
       - hub
+      - iperf3
       - iproute2mac
       - jid
       - jq
       - jsonlint
       - kafkacat
-      - krew
       - kail
+      - krew
       - kubectx
       - kubernetes-cli
       - minikube
@@ -66,7 +67,7 @@ all:
       - tree
       - watch
       - wget
-      - yubikey-personalization
+      - ykpers
 
     homebrew_taps:
       - homebrew/core
