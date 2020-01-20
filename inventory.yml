@@ -30,7 +30,6 @@ all:
       - graphviz
       - grep
       - gron
-      - groovy
       - helm
       - htop
       - hub
@@ -132,7 +131,6 @@ all:
       - git-plus
       - intentions
       - language-ansible
-      - language-groovy
       - language-powershell
       - linter
       - linter-ansible-linting
