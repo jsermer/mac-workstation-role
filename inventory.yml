@@ -24,6 +24,7 @@ all:
       - fx
       - git
       - git-extras
+      - glances
       - gnu-sed
       - gnu-tar
       - gnupg
