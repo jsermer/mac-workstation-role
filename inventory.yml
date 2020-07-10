@@ -33,6 +33,7 @@ all:
       - gron
       - helm
       - htop
+      - httpie
       - hub
       - iperf3
       - iproute2mac
@@ -85,9 +86,9 @@ all:
       - anydesk
       - atom
       - balenaetcher
-      - bonjour-browser
       - citrix-receiver
       - docker
+      - drawio
       - firefox
       - gimp
       - google-chrome
