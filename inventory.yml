@@ -69,6 +69,7 @@ all:
       - watch
       - wget
       - ykpers
+      - yq
 
     homebrew_taps:
       - homebrew/core
