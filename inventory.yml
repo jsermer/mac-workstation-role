@@ -114,6 +114,7 @@ all:
       - vlc
       - wifi-explorer
       - wireshark
+      - xquartz
       - yubico-yubikey-manager
       - yubico-yubikey-personalization-gui
       - yubico-yubikey-piv-manager
