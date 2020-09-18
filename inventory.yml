@@ -32,6 +32,7 @@ all:
       - grep
       - gron
       - helm
+      - homeassistant-cli
       - htop
       - httpie
       - hub
@@ -88,6 +89,7 @@ all:
       - atom
       - balenaetcher
       - citrix-receiver
+      - discord
       - docker
       - drawio
       - firefox
