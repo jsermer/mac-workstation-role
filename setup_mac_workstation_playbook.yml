@@ -15,23 +15,13 @@
         code --list-extensions | grep -E "^{{ item }}"
         && echo "Already installed."
         || code --install-extension "{{ item }}"
-      loop: "{{ visual_studio_code_extensions }}"
+      loop: '{{ visual_studio_code_extensions }}'
       register: vsc_result
       changed_when: "'Already installed.' not in vsc_result.stdout"
       tags: ['vsc']
 
-    - name: install atom packages
-      shell: >
-        apm list --bare | grep -E "^{{ item }}@"
-        && echo "Already installed."
-        || apm install "{{ item }}"
-      loop: "{{ atom_packages }}"
-      register: apm_result
-      changed_when: "'Already installed.' not in apm_result.stdout"
-      tags: ['atom', 'never']
-
     - name: Run configured post-provision ansible task files.
-      include_tasks: "{{ outer_item }}"
+      include_tasks: '{{ outer_item }}'
       loop_control:
         loop_var: outer_item
-      with_fileglob: "{{ post_provision_tasks|default(omit) }}"
+      with_fileglob: '{{ post_provision_tasks|default(omit) }}'

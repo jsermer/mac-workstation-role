@@ -1,0 +1,4 @@
+# .ansible-lint                                                                                                                                                                                                                                                                                          │
+#warn_list:  # or 'skip_list' to silence them completely                                                                                                                                                                                                                                                  │
+skip_list:
+  - '306'  # Shells that use pipes should set the pipefail option                                                                                                                                                                                                                                        │

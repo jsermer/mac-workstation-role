@@ -13,7 +13,7 @@ all:
       - .gitconfig
 
     homebrew_installed_packages:
-      # - ansible # Installed via Pip.
+      # - ansible # Installed via pipenv
       - ansible-lint
       - autopep8
       - autossh
@@ -86,7 +86,6 @@ all:
     homebrew_cask_apps:
       - android-platform-tools
       - anydesk
-      - atom
       - balenaetcher
       - citrix-receiver
       - discord
@@ -123,32 +122,35 @@ all:
 
     visual_studio_code_extensions:
       - DavidAnson.vscode-markdownlint
+      - dbaeumer.vscode-eslint
       - eamodio.gitlens
+      - fbaligand.vscode-logstash-editor
+      - formulahendry.code-runner
+      - ginfuru.ginfuru-vscode-jekyll-syntax
+      - GitHub.vscode-pull-request-github
       - haaaad.ansible
+      - HookyQR.beautify
+      - humao.rest-client
+      - ms-azuretools.vscode-docker
+      - ms-kubernetes-tools.vscode-kubernetes-tools
       - ms-python.python
+      - ms-toolsai.jupyter
+      - NicolasVuillamy.vscode-groovy-lint
+      - PascalReitermann93.vscode-yaml-sort
       - rebornix.ruby
+      - redhat.java
       - redhat.vscode-yaml
+      - ria.elastic
       - timonwong.shellcheck
+      - VisualStudioExptTeam.vscodeintellicode
+      - vscjava.vscode-java-debug
+      - vscjava.vscode-java-dependency
+      - vscjava.vscode-java-pack
+      - vscjava.vscode-java-test
+      - vscjava.vscode-maven
       - vscoss.vscode-ansible
-
-    atom_packages:
-      - atom-beautify
-      - busy-signal
-      - git-plus
-      - intentions
-      - language-ansible
-      - language-powershell
-      - linter
-      - linter-ansible-linting
-      - linter-coffeelint
-      - linter-flake8
-      - linter-perl
-      - linter-ruby
-      - linter-shellcheck
-      - linter-ui-default
-      - platformio-ide-terminal
-      - ruby-test
-      - vim-mode-plus
+      - wholroyd.jinja
+      - wingrunr21.vscode-ruby
 
     # Glob pattern to ansible task files to run after all other
     # tasks are finished.
