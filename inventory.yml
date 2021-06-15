@@ -54,6 +54,7 @@ all:
       - node
       - openconnect
       - pdsh
+      - pyenv
       - pipenv
       - rbenv
       - ruby-build
