@@ -75,14 +75,15 @@ all:
       - yq
 
     homebrew_taps:
-      - homebrew/core
+      - boz/repo
       - homebrew/cask
       - homebrew/cask-drivers
+      - homebrew/cask-fonts
       - homebrew/cask-versions
+      - homebrew/core
       - homebrew/portable-ruby
       - homebrew/services
       - martido/graph
-      - boz/repo
 
     homebrew_cask_appdir: /Applications
     homebrew_cask_apps:
@@ -94,6 +95,7 @@ all:
       - docker
       - drawio
       - firefox
+      - font-fira-code-nerd-font
       - freeyourmusic
       - gimp
       - google-chrome
