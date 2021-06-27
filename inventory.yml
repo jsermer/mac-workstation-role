@@ -23,6 +23,7 @@ all:
       - flake8
       - fx
       - git
+      - git-delta
       - git-extras
       - glances
       - gnu-sed
