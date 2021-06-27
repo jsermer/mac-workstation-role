@@ -17,8 +17,11 @@ all:
       - ansible-lint
       - autopep8
       - autossh
+      - bat
       - cask
       - coreutils
+      - duf
+      - dust
       - findutils
       - flake8
       - fx
@@ -58,6 +61,7 @@ all:
       - pyenv
       - pipenv
       - rbenv
+      - ripgrep
       - ruby-build
       - shellcheck
       - shyaml
