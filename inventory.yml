@@ -20,6 +20,8 @@ all:
       - bat
       - cask
       - coreutils
+      - curlie
+      - dog
       - duf
       - dust
       - findutils
