@@ -60,6 +60,7 @@ all:
       - node
       - openconnect
       - pdsh
+      - procs
       - pyenv
       - pipenv
       - rbenv
