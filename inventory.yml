@@ -52,6 +52,7 @@ all:
       - krew
       - kubectx
       - kubernetes-cli
+      - libyaml
       - lsd
       - minikube
       - moreutils
